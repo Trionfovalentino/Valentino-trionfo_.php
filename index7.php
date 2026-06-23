@@ -1,6 +1,5 @@
 <?php
 
-
 // Regola 1: Almeno 8 caratteri
 function checkLength($psw) {
     if (strlen($psw) >= 8) {
