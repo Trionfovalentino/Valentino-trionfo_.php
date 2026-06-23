@@ -6,7 +6,7 @@ function checkLength($psw) {
     if (strlen($psw) >= 8) {
         return true;
     }
-    echo "❌ Errore: La password deve avere almeno 8 caratteri.\n";
+    echo "Errore: La password deve avere almeno 8 caratteri.\n";
     return false;
 }
 
@@ -17,7 +17,7 @@ function checkNumber($psw) {
             return true;
         }
     }
-    echo "❌ Errore: La password deve contenere almeno un numero.\n";
+    echo "Errore: La password deve contenere almeno un numero.\n";
     return false;
 }
 
@@ -28,7 +28,7 @@ function checkUpper($psw) {
             return true;
         }
     }
-    echo "❌ Errore: La password deve contenere almeno una lettera maiuscola.\n";
+    echo "Errore: La password deve contenere almeno una lettera maiuscola.\n";
     return false;
 }
 
@@ -65,4 +65,4 @@ do {
 
 } while (!$isPasswordOk);
 
-echo "🎉 Password accettata e salvata con successo!\n";
+echo "Password accettata e salvata con successo!\n";
